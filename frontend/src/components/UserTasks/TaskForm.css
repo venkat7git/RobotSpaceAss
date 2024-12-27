@@ -1,0 +1,171 @@
+/* TaskForm.css */
+
+.form-container {
+  max-width: 100%;
+  margin: 2rem auto;
+  padding: 40px;
+  border: 1px solid #914949;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.create-heading{
+  margin: 0px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.taskname-input{
+  width: 60%;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #385572;
+  padding: 0px 5px 0px 5px;
+
+}
+
+.description-input-area{
+  width: 60%;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #385572;
+  padding: 5px 5px 0px 5px;
+}
+
+
+@media screen and (max-width:576px) {
+  .taskname-input{
+    width: 120%;
+    height: 32px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #385572;
+    padding: 0px 5px 0px 5px;
+
+  }
+  
+  .description-input-area{
+    width: 120%;
+    height: 70px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #385572;
+    padding: 5px 5px 0px 5px;
+  }
+  .dss-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  .select-input{
+    margin: 0px;
+  }
+  .create-heading{
+    margin: 0px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #914949;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+.form-container{
+  margin-top: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-task-button{
+ width: 90px;
+ height: 35px;
+ background-color: #385572;
+ border: none;
+ border-radius: 5px;
+ color: #ffffff;
+ margin-top: 10px;
+}
+
+.add-task-button:hover {
+  background-color: #218838;
+  cursor: pointer;
+}
+
+
+
+.select-input {
+
+  margin: 4px 0px 5px 0px;
+  height: 40px;
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+.select-input {
+  --select-border: #a8afaf;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+
+}
+
+.select-input::-ms-expand {
+  display: none;
+}
+
+input[type="date"]{
+  background-color: #385572;
+  padding: 7px;
+ 
+  font-family: "Roboto Mono",monospace;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 4px 0px 0px 6px;
+}
+::-webkit-calendar-picker-indicator{
+  background-color: #ffffff;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.dss-container{
+  margin-top: 15px;
+  text-align: start;
+}
+
+.input-label{
+  font-weight: 600;
+  font-size: 14px;
+}

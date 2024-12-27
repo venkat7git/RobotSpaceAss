@@ -1,0 +1,94 @@
+
+.task-heading{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .description{
+    font-size: 14px;
+  }
+  .title{
+    font-size: 25px;
+  }
+  .status{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: start;
+
+  }
+
+.delete-button {
+    background-color: #938329;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+   
+  }
+  .delete-button:hover{
+    background-color: #c40b0b;
+  }
+
+.check-and-edit-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.task-checkbox{
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+.task-checkbox:hover{
+  cursor: pointer;
+}
+
+.list-item {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-bottom: 1px solid #ddd;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px 10px 0px 0px;
+  text-align: start;
+  border-radius: 10px;
+  transition: transform 1s;
+  
+}
+.list-item:hover{
+  border: 2px solid #467378;
+}
+
+
+
+@media screen and(max-width:576px) {
+  .list-item{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  
+}
+
+.edit-button{
+  background-color: transparent;
+  border: 0px;
+}
+
+.edit-button:hover{
+  background-color: transparent;
+  cursor: pointer;
+}
